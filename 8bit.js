@@ -28,7 +28,6 @@
    * @param {number} quality - the new quality: between 0 and 100
    */
   const eightBit = function (canvas, image, quality) {
-    // Hello I got the answer and it's perfectly working -
     quality /= 100;
 
     canvas.width = invisibleCanvas.width = image.width;
